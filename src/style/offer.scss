@@ -1,0 +1,32 @@
+.offer-wrapper {
+    display: grid;
+   
+    grid-template-columns: repeat(3, auto);;
+    grid-gap: 40px;
+    height: 100%;
+    width: 100%;
+    row-gap: 80px;
+    padding: 100px 0;
+    .offer-wrapper__offer-box {
+        background-color: rgba($color: #969696, $alpha: .8);
+        width: 350px;
+        height: 100%;   
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        img {width: 350px;
+            height: 250px;
+        padding: 10px;
+        margin-bottom: 30px;
+    background-color: transparent;
+border: 3px ridge wheat ;}
+            .offer-box__text {
+                text-decoration: none;
+                font-size: 30px;
+                color: wheat;
+            }
+    }
+}

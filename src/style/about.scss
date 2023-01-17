@@ -1,0 +1,57 @@
+.team-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Signika Negative", sans-serif;
+   
+    height: 100%;
+    width: 100%;
+    
+    .team-wrapper__about-text {
+        background-color: rgba($color: #969696, $alpha: .8);
+        margin: 36px 0;
+        h3 { color : #2e2e2e;
+            font-size: 48px;
+            padding: 12px 0;
+        }
+    
+    }
+
+    .person-box {
+        background-color: rgba($color: #969696, $alpha: .8);
+        display: flex;
+        flex-wrap: nowrap;
+        // align-items: center;
+        padding: 36px 0 ;
+        .person-box__person-image-box{
+            margin: 0 34px;
+            .person-image-box__image {height: 100%;
+            border: 1px solid gray;
+height: 350px;
+            width: 300px;
+        }
+        }
+            .person-box__person-info {
+                text-align: start;
+                padding: 0 24px;
+
+                h4{
+                    color: #DAA520;
+                    font-size: 24px;
+                    padding-top: 36px;
+
+                }
+                .person-info__specialization {
+                    font-size: 12px;
+                    padding:0 0 24px 0 ;
+                    text-transform: uppercase;
+
+                }
+                .person-info__description {
+                    font-size: 18px;
+                    padding: 24px 0 ;
+                    letter-spacing:0.3mm;
+                }
+            }
+    }
+}

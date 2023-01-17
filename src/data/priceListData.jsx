@@ -1,0 +1,458 @@
+export const priceListData = [
+  {
+    id: 0,
+    service: "Strzyżenie włosów",
+    className: "priceList-wrapper__service-type",
+  },
+  {
+    id: 1,
+    service: "Strzyżenie damskie",
+    price: "40 zł",
+    className: "priceList-wrapper__service-item",
+  },
+  {
+    id: 2,
+    service: "Strzyżenie męskie",
+    price: "25-35 zł",
+    className: "priceList-wrapper__service-item",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 3,
+    service: "Strzyżenie dziecięce",
+    price: "15-25 zł",
+  },
+  {
+    id: 4,
+    service: "Stylizacja",
+    className: "priceList-wrapper__service-type",
+  },
+  // stylization
+  {
+    className: "priceList-wrapper__service-item",
+    id: 5,
+    service: "Modelowanie włosów",
+    price: "30 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 6,
+    service: "Fryzura wieczorowa / upięcia",
+    price: "od 80 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 7,
+    service: "Loki/fale",
+    price: "od 60 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 8,
+    service: "Fryzura próbna",
+    price: "od 80 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 9,
+    service: "Fryzura ślubna",
+    price: "od 100 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 10,
+    service: "Prostowanie włosów",
+    price: "od 40 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 11,
+    service: "Prostowanie keratynowe włosów",
+    price: "od 300 zł",
+  },
+  {
+    id: 12,
+    service: "Koloryzacja",
+    className: "priceList-wrapper__service-type",
+  },
+  // coloring
+  {
+    className: "priceList-wrapper__service-item",
+    id: 13,
+    service: "Farbowanie włosów",
+    price: "od 130 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 14,
+    service: "Farbowanie z OLAPLEKSEM",
+    price: "od 150 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 15,
+    service: "Pasemka / refleksy 3D",
+    price: "od 150 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 16,
+    service: "Ombre / sombre",
+    price: "od 150 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 17,
+    service: "Olaplex regeneracja włosów",
+    price: "od 120 zł",
+  },
+  {
+    id: 18,
+    service: "Zabiegi pielęgnujące twarzy",
+    className: "priceList-wrapper__service-type",
+  },
+  // faceCare
+  {
+    className: "priceList-wrapper__service-item",
+    id: 19,
+    service: "Oczyszczanie twarzy manualne",
+    price: "od 120 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 20,
+    service: "Oczyszczanie twazy + peeling kawiatacyjny",
+    price: "od 130 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 21,
+    service: "Sonoforeza twarzy",
+    price: "od 80 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 22,
+    service: "Sonoforeza twarzy, szyi i dekoltu",
+    price: "100-140 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 23,
+    service: "Peeling kawitacyjny twarzy",
+    price: "od 80 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 24,
+    service: "Peeling kawitacyjny twarzy, szyi i dekoltu",
+    price: "100-140 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 25,
+    service: "Peeling kawitacyjny twarzy + ampułka + ultradźwięki",
+    price: "120-160 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 26,
+    service:
+      "Peeling kawitacyjny twarzy, szyi i dekoltu + ampułka + ultradźwięki",
+    price: "140-180 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 27,
+    service: "Zabieg liftingujący Janssen na twarz i oczy",
+    price: "150 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 28,
+    service: "Zabiegi z kwasami",
+    price: "80-250 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 29,
+    service: "Mikrodermabrazja twarzy",
+    price: "120-140 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 30,
+    service: "Mikrodermabrazja twarzy, szyi i dekoltu",
+    price: "160 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 31,
+    service: "Mezoterapia mikroigłowa twarzy",
+    price: "220 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 32,
+    service: "Zabieg RETIX C z retinolem odmładzająco-rozświetlający",
+    price: "200 zł",
+  },
+  {
+    id: 33,
+    service: "Zabiegi pielęgnujące ciała",
+    className: "priceList-wrapper__service-type",
+  },
+  // bodyCare
+  {
+    className: "priceList-wrapper__service-item",
+    id: 34,
+    service: "Oczyszczanie pleców manualne + maska",
+    price: "od 100 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 35,
+    service: "Liposukcja ultradźwiękowa wybranej części ciała",
+    price: "80-160 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 36,
+    service: "Dermomasaż wybranej części ciała",
+    price: "80-160 zł",
+  },
+  {
+    id: 37,
+    service: "Makijaż",
+    className: "priceList-wrapper__service-type",
+  },
+  // makeup
+  {
+    className: "priceList-wrapper__service-item",
+    id: 38,
+    service: "Makijaż dzienny",
+    price: "80 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 39,
+    service: "Makijaż okolicznościowy",
+    price: "100 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 40,
+    service: "Makijaż ślubny",
+    price: "120 zł",
+  },
+  {
+    id: 41,
+    service: "Makijaż permamentny",
+    className: "priceList-wrapper__service-type",
+  },
+  // permamentMakeup
+  {
+    className: "priceList-wrapper__service-item",
+    id: 42,
+    service: "Makijaż permamentny brwi",
+    price: "600 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 43,
+    service: "Makijaż permamentny ust",
+    price: "700 zł",
+  },
+  {
+    id: 44,
+    service: "Zabiegi na Brwi i Rzęsy",
+    className: "priceList-wrapper__service-type",
+  },
+  // eyebrownsEyelashes
+  {
+    className: "priceList-wrapper__service-item",
+    id: 45,
+    service: "Regulacja brwi",
+    price: "10-20 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 46,
+    service: "Henna brwi",
+    price: "10-20 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 47,
+    service: "Henna rzęs",
+    price: "15-20 zł",
+  },
+  {
+    id: 48,
+    service: "Depilacja woskiem",
+    className: "priceList-wrapper__service-type",
+  },
+  // waxing
+  {
+    className: "priceList-wrapper__service-item",
+    id: 49,
+    service: "Brwi",
+    price: "15-20 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 50,
+    service: "Wąsik",
+    price: "10-20 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 51,
+    service: "Broda",
+    price: "10-30z ł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 52,
+    service: "Pachy",
+    price: "35 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 53,
+    service: "Ręce",
+    price: "50-70 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 54,
+    service: "Nogi",
+    price: "50-100 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 55,
+    service: "Linia bikini",
+    price: "30-50 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 56,
+    service: "Brzuch",
+    price: "20-40 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 57,
+    service: "Plecy",
+    price: "20-50 zł",
+  },
+  {
+    id: 58,
+    service: "Pielęgnacja dłoni",
+    className: "priceList-wrapper__service-type",
+  },
+  // handsCare
+  {
+    className: "priceList-wrapper__service-item",
+    id: 59,
+    service: "Manicure naturalny",
+    price: "40 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 60,
+    service: "Zabieg parafinowy na dłonie",
+    price: "40 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 61,
+    service: "Manicure hybrydowy jenokolorowy",
+    price: "65 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 62,
+    service: "Manicure hybrydowy + zdobienie",
+    price: "od 70 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 63,
+    service: "Żel na naturalną płytkę + hybryda",
+    price: "90 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 64,
+    service: "Przedłużanie paznokci metodą żelową",
+    price: "130 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 65,
+    service: "Korekta paznokci żelowych",
+    price: "90-100 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 66,
+    service: "Usunięcie hybrydy",
+    price: "40 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 67,
+    service: "Usunięcie paznokci żelowych",
+    price: "50 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 68,
+    service: "Naprawa 1 paznokcia",
+    price: "10 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 69,
+    service: "Zdobienia",
+    price: "10 zł",
+  },
+  {
+    id: 70,
+    service: "Pielęgnacja stóp",
+    className: "priceList-wrapper__service-type",
+  },
+  // footCare
+  {
+    className: "priceList-wrapper__service-item",
+    id: 71,
+    service: "Pedicure naturalny",
+    price: "80 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 72,
+    service: "Pedicure hybrydowy",
+    price: "110 zł",
+  },
+  {
+    className: "priceList-wrapper__service-item",
+    id: 73,
+    service: "Hybrydy u stóp",
+    price: "80 zł",
+  },
+  {
+    id: 74,
+    service: "Przekłuwanie uszu",
+    className: "priceList-wrapper__service-type",
+  },
+  // earPiercing
+  {
+    className: "priceList-wrapper__service-item",
+    id: 75,
+    service: "Przekłuwanie uszu wraz z kolczykami",
+    price: "60 zł",
+  },
+];

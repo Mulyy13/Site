@@ -1,0 +1,49 @@
+
+.home-wrapper {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: repeat(4, 300px);
+    column-gap: 10px;
+    row-gap: 40px;
+    .home-wrapper__element {
+        display: flex;
+        align-items: center;
+        padding: 0px 48px;
+        font-size: 18px;
+        height: 100%;
+        width: 100%;
+        
+        text-align: center;
+    }
+    .image-wrapper__image {
+        position: relative;
+    height: 100%;
+    width: 100%;
+        border-radius: 20px;
+        &:hover {
+            filter: brightness(50%);
+            transform: scale(0.95);
+            &::after {
+                position: absolute;
+                top: 0;
+                left: 0;
+                content: "Zobacz";
+                height: 100px;
+                width: 100%;
+                background-color: black;
+            }
+        }
+    }
+}
+.image-wrapper__image {
+    position: relative;
+    &:hover{
+&::after{position: absolute;
+    // left: 40%;
+    // top:45%;
+    // color: white;
+    // font-size: 34px;
+    // content: "Zobacz";
+}
+    }
+}
